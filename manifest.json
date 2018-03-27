@@ -1,0 +1,13 @@
+{
+   "Name": "StarDew Valley Summer Swimsuits - Diversity",
+   "Author": "ChefRude",
+   "Version": "1.0.4",
+   "Description": "A ContentPatcher mod that gives most NPCs swimsuits during the summer. Diversity version.",
+   "UniqueID": "ChefRude.StardewValleySummerSwimsuitsDiversity",
+   "MinimumApiVersion": "2.5.4",
+   "UpdateKeys": [ "Nexus:2004" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.3"
+   }
+}

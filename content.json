@@ -1,0 +1,1261 @@
+{
+    "Format": "1.3",
+    "ConfigSchema": {
+        "LuauOnly": {
+            "AllowValues": "true, false"
+        },
+        "ElliottVariant": {
+            "AllowValues": "default, beads"
+        },
+        "GeorgeVariant": {
+            "AllowValues": "default, floaties"
+        },
+        "LinusVariant": {
+            "AllowValues": "censored, grassskirt"
+        },
+        "DemetriusVariant": {
+            "AllowValues": "black, albino"
+        },                 
+    },
+    "Changes": 
+    [
+	/*********
+	** Luau only
+	*********/
+        {
+            "LogName": "Abigail Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/AbigailSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            },
+        },
+        {
+            "LogName": "Abigail Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail",
+            "FromFile": "assets/AbigailPortraitSwim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Alex Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/AlexSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Alex Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex",
+            "FromFile": "assets/Alexportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Caroline Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Caroline",
+            "FromFile": "assets/CarolineSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Caroline Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Caroline",
+            "FromFile": "assets/Carolineportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Clint Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Clint",
+            "FromFile": "assets/ClintSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Clint Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Clint",
+            "FromFile": "assets/Clintportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Demetrius Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/DemetriusSwim_{{DemetriusVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Demetrius Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius",
+            "FromFile": "assets/Demetriusportraitswim_{{DemetriusVariant}}.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Elliott Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/ElliottSwim_{{ElliottVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Elliott Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Elliott",
+            "FromFile": "assets/Elliottportraitswim_{{ElliottVariant}}.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Emily Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/EmilySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Emily Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Emily",
+            "FromFile": "assets/Emilyportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Evelyn Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Evelyn",
+            "FromFile": "assets/EvelynSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Evelyn Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Evelyn",
+            "FromFile": "assets/Evelynportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "George Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/George",
+            "FromFile": "assets/GeorgeSwim_{{GeorgeVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "George Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/George",
+            "FromFile": "assets/Georgeportraitswim_{{GeorgeVariant}}.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Gus Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Gus",
+            "FromFile": "assets/GusSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Gus Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Gus",
+            "FromFile": "assets/Gusportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Haley Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/HaleySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Haley Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Haley",
+            "FromFile": "assets/Haleyportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Harvey Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/HarveySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Harvey Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/Harveyportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Jas Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/JasSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Jas Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Jas",
+            "FromFile": "assets/Jasportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Jodi Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Jodi",
+            "FromFile": "assets/JodiSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Jodi Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Jodi",
+            "FromFile": "assets/Jodiportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Kent Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Kent",
+            "FromFile": "assets/KentSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Kent Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Kent",
+            "FromFile": "assets/Kentportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Leah Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/LeahSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Leah Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Leah",
+            "FromFile": "assets/Leahportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Lewis Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Lewis",
+            "FromFile": "assets/LewisSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Lewis Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Lewis",
+            "FromFile": "assets/Lewisportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Linus Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/LinusSwim_{{LinusVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Linus Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Linus",
+            "FromFile": "assets/Linusportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Marnie Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/MarnieSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Marnie Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie",
+            "FromFile": "assets/Marnieportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Maru Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/MaruSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Maru Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Maru",
+            "FromFile": "assets/Maruportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Pam Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Pam",
+            "FromFile": "assets/PamSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Pam Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pam",
+            "FromFile": "assets/Pamportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Penny Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/PennySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Penny Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "assets/Pennyportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Pierre Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/PierreSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Pierre Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre",
+            "FromFile": "assets/Pierreportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Robin Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Robin",
+            "FromFile": "assets/RobinSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Robin Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Robin",
+            "FromFile": "assets/Robinportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Sam Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/SamSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Sam Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "FromFile": "assets/Samportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Sebastian Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/sebastianswim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Sebastian Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Sebastian",
+            "FromFile": "assets/sebastianportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Shane Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/ShaneSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Shane Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/Shaneportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Vincent Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Vincent",
+            "FromFile": "assets/VincentSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+        {
+            "LogName": "Vincent Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Vincent",
+            "FromFile": "assets/Vincentportraitswim.png",
+            "When": {
+                "LuauOnly": "true",
+                "Season": "summer",
+                "Day": "11"
+            }
+        },
+	/*********
+	** All summer
+	*********/
+        {
+            "LogName": "Abigail Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/AbigailSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer",
+            },
+        },
+        {
+            "LogName": "Abigail Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail",
+            "FromFile": "assets/AbigailPortraitSwim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer",
+            }
+        },
+        {
+            "LogName": "Alex Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/AlexSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Alex Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Alex",
+            "FromFile": "assets/Alexportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Caroline Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Caroline",
+            "FromFile": "assets/CarolineSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Caroline Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Caroline",
+            "FromFile": "assets/Carolineportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Clint Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Clint",
+            "FromFile": "assets/ClintSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Clint Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Clint",
+            "FromFile": "assets/Clintportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Demetrius Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/DemetriusSwim_{{DemetriusVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Demetrius Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius",
+            "FromFile": "assets/Demetriusportraitswim_{{DemetriusVariant}}.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Elliott Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/ElliottSwim_{{ElliottVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Elliott Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Elliott",
+            "FromFile": "assets/Elliottportraitswim_{{ElliottVariant}}.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Emily Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/EmilySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Emily Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Emily",
+            "FromFile": "assets/Emilyportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Evelyn Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Evelyn",
+            "FromFile": "assets/EvelynSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Evelyn Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Evelyn",
+            "FromFile": "assets/Evelynportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "George Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/George",
+            "FromFile": "assets/GeorgeSwim_{{GeorgeVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "George Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/George",
+            "FromFile": "assets/Georgeportraitswim_{{GeorgeVariant}}.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Gus Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Gus",
+            "FromFile": "assets/GusSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Gus Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Gus",
+            "FromFile": "assets/Gusportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Haley Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/HaleySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Haley Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Haley",
+            "FromFile": "assets/Haleyportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Harvey Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/HarveySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Harvey Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/Harveyportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Jas Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/JasSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Jas Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Jas",
+            "FromFile": "assets/Jasportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Jodi Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Jodi",
+            "FromFile": "assets/JodiSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Jodi Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Jodi",
+            "FromFile": "assets/Jodiportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Kent Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Kent",
+            "FromFile": "assets/KentSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Kent Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Kent",
+            "FromFile": "assets/Kentportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Leah Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/LeahSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Leah Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Leah",
+            "FromFile": "assets/Leahportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Lewis Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Lewis",
+            "FromFile": "assets/LewisSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Lewis Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Lewis",
+            "FromFile": "assets/Lewisportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Linus Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/LinusSwim_{{LinusVariant}}.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Linus Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Linus",
+            "FromFile": "assets/Linusportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Marnie Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/MarnieSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Marnie Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Marnie",
+            "FromFile": "assets/Marnieportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Maru Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/MaruSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Maru Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Maru",
+            "FromFile": "assets/Maruportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Pam Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Pam",
+            "FromFile": "assets/PamSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Pam Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pam",
+            "FromFile": "assets/Pamportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Penny Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/PennySwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Penny Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "assets/Pennyportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Pierre Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/PierreSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Pierre Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pierre",
+            "FromFile": "assets/Pierreportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Robin Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Robin",
+            "FromFile": "assets/RobinSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Robin Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Robin",
+            "FromFile": "assets/Robinportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Sam Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/SamSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Sam Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "FromFile": "assets/Samportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Sebastian Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/sebastianswim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer",
+            }
+        },
+        {
+            "LogName": "Sebastian Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Sebastian",
+            "FromFile": "assets/sebastianportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer",
+            }
+        },
+        {
+            "LogName": "Shane Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/ShaneSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Shane Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/Shaneportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Vincent Swimsuit Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Vincent",
+            "FromFile": "assets/VincentSwim.png",
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 128 },
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+        {
+            "LogName": "Vincent Swimsuit Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Vincent",
+            "FromFile": "assets/Vincentportraitswim.png",
+            "When": {
+                "LuauOnly": "false",
+                "Season": "summer"
+            }
+        },
+    ]
+}
